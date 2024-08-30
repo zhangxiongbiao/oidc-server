@@ -130,7 +130,7 @@ if FORCE_SCRIPT_NAME:
 
 STATIC_URL = FORCE_SCRIPT_NAME + "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static_root")
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static/"),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, "static/"),
+# )
 LOGIN_URL = FORCE_SCRIPT_NAME + "/accounts/login/"
